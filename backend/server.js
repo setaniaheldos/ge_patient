@@ -647,6 +647,6 @@ app.put('/rendezvous/:id', async (req, res) => {
 // ...existing code...
 // Démarrer serveur
 app.listen(PORT, () => {
-  console.log(`🚀 API démarrée et prête à l'utilisation.`);
+  console.log(`🚀 API démarrée et prête à l'utilisation ${PORT}`);
 });
 
