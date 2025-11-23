@@ -4,7 +4,8 @@ const bcrypt = require('bcrypt');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3001;
+// const PORT = 3001;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
